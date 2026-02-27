@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Định hướng và giáo dục sự nghiệp cho học sinh THPT và THCS - Hướng Đi Sự Nghiệp">
+    <meta name="author" content="Hướng Đi Sự Nghiệp Team">
+    <meta name="keywords" content="hướng dẫn sự nghiệp, giáo dục, ngành nghề, tư vấn, học sinh THPT THCS">
+    <meta property="og:title" content="Hướng Đi Sự Nghiệp - Khám Phá Ước Mơ Của Bạn">
+    <meta property="og:description" content="Định hướng toàn diện về sự nghiệp cho học sinh THPT và THCS">
+    <meta property="og:type" content="website">
+    <title>Hướng Đi Sự Nghiệp - Khám Phá Ước Mơ Của Bạn</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- ========== SIDEBAR NAVIGATION ========== -->
+    <aside class="sidebar">
+        <div class="logo">
+            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <style>
+                        .logo-arrow { fill: #ffffff; }
+                        .logo-circle { fill: none; stroke: #ffffff; stroke-width: 2; }
+                    </style>
+                </defs>
+                <circle cx="50" cy="50" r="45" class="logo-circle"/>
+                <polygon points="50,20 35,40 42,40 42,65 58,65 58,40 65,40" class="logo-arrow"/>
+                <circle cx="30" cy="75" r="3" class="logo-arrow"/>
+                <circle cx="50" cy="80" r="3" class="logo-arrow"/>
+                <circle cx="70" cy="75" r="3" class="logo-arrow"/>
+            </svg>
+        </div>
+        <nav class="nav-menu">
+            <a href="#home" class="nav-item active" data-section="home" title="Trang Chủ">
+                <i class="fas fa-home"></i>
+                <span class="nav-label">Trang Chủ</span>
+            </a>
+            <a href="#about" class="nav-item" data-section="about" title="Về Chúng Tôi">
+                <i class="fas fa-users"></i>
+                <span class="nav-label">Chúng Tôi</span>
+            </a>
+            <a href="#guidance" class="nav-item" data-section="guidance" title="Định Hướng & Giáo Dục">
+                <i class="fas fa-bullseye"></i>
+                <span class="nav-label">Định Hướng</span>
+            </a>
+            <a href="#news" class="nav-item" data-section="news" title="Tin Tức & Sự Kiện">
+                <i class="fas fa-bullhorn"></i>
+                <span class="nav-label">Tin Tức</span>
+            </a>
+        </nav>
+        <div class="social-media">
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-link" title="Facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-link" title="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="social-link" title="Twitter">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="mailto:contact@huongdisunghiep.vn" class="social-link" title="Gmail">
+                <i class="fas fa-envelope"></i>
+            </a>
+        </div>
+    </aside>
+
+    <!-- ========== MAIN CONTENT AREA ========== -->
+    <main class="main-content">
+        <!-- ========== HOME SECTION ========== -->
+        <section id="home" class="content-section active">
+            <!-- Hero Section -->
+            <div class="hero-section">
+                <div class="hero-content">
+                    <h1>Khám Phá Ước Mơ Của Bạn</h1>
+                    <p>Hướng dẫn toàn diện về sự nghiệp cho học sinh THPT và THCS</p>
+                    <button class="btn-chatbot" id="chatbot-btn-hero">
+                        <i class="fas fa-robot"></i> Bắt Đầu Tư Vấn Miễn Phí
+                    </button>
+                </div>
+                <div class="hero-background"></div>
+            </div>
+
+            <!-- Introduction Container -->
+            <div class="intro-container">
+                <h2>Chào Mừng Đến Với Hướng Đi Sự Nghiệp</h2>
+                <p>Chúng tôi là một nền tảng giáo dục toàn diện được thiết kế đặc biệt để giúp các em học sinh THPT và THCS hiểu rõ hơn về bản thân. Thông qua các công cụ tư vấn hiện đại, chúng tôi sẽ giúp bạn:</p>
+                
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <i class="fas fa-lightbulb"></i>
+                        <h3>Khám Phá Bản Thân</h3>
+                        <p>Tìm hiểu sâu về những đam mê, sở thích, điểm mạnh, điểm yếu và năng lực của mình thông qua các bài kiểm tra tương tác và hướng dẫn từ các chuyên gia.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>Thông Tin Ngành Nghề</h3>
+                        <p>Cập nhật thông tin chi tiết về các ngành nghề hot, yêu cầu kỹ năng cần thiết, mức lương, cơ hội việc làm và triển vọng phát triển sự nghiệp.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>Hỗ Trợ Giáo Dục</h3>
+                        <p>Hướng dẫn toàn diện về con đường học tập, các trường đại học hàng đầu, yêu cầu tuyển sinh và kế hoạch chuẩn bị cho kỳ thi THPT.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-brain"></i>
+                        <h3>Tư Vấn AI Thông Minh</h3>
+                        <p>Sử dụng trí tuệ nhân tạo tiên tiến để phân tích sở thích và năng lực của bạn, đưa ra những lời khuyên cá nhân hóa về ngành nghề phù hợp nhất.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-network-wired"></i>
+                        <h3>Kết Nối Cơ Hội</h3>
+                        <p>Kết nối với các chuyên gia, trường đại học và các công ty hàng đầu để cập nhật thông tin tuyển sinh, đơn xin việc và cơ hội thực tập.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-trophy"></i>
+                        <h3>Con Đường Thành Công</h3>
+                        <p>Được hỗ trợ bằng các kế hoạch học tập chi tiết, lộ trình phát triển kỹ năng và chiến lược chuẩn bị cho tương lai tươi sáng của bạn.</p>
+                    </div>
+                </div>
+
+                <!-- Gallery Section -->
+                <div class="home-images">
+                    <h3>Khám Phá Các Ngành Nghề Hot</h3>
+                    <div class="image-grid">
+                        <img src="anhweb\cntt.jpg" alt="Công nghệ thông tin - ngành hot">
+                        <img src="anhweb\nganh-thiet-ke-02.jpg" alt="Thiết kế - ngành sáng tạo">
+                        <img src="anhweb\toan-canh-ve-nganh-quan-tri-kinh-doanh-tong-hop-chi-tiet-a-z-so-1-1.jpg" alt="Kinh doanh - ngành quản lý">
+                        <img src="anhweb\a1qruz-1753152366352863266624.jpg" alt="Giáo dục - ngành sư phạm">
+                        <img src="anhweb\27n58ueupke33s0k7uc220240605104919_thump.jpg" alt="Y khoa, Y dược - ngành y tế">
+                        <img src="anhweb\dt3wxu29plbw88yfmvha20240504041958_thump.jpg" alt="Xây dựng - ngành kiến trúc">
+                    </div>
+                </div>
+
+                <!-- Why Choose Us Section -->
+                <div class="why-choose-section">
+                    <h2>Tại Sao Chọn Hướng Đi Sự Nghiệp?</h2>
+                    <div class="reasons-grid">
+                        <div class="reason-card">
+                            <div class="reason-icon">
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <h4>Chuyên Gia Hàng Đầu</h4>
+                            <p>Đội ngũ các chuyên gia giáo dục và tư vấn sự nghiệp với hơn 50 năm kinh nghiệm tích lũy trong ngành.</p>
+                        </div>
+                        <div class="reason-card">
+                            <div class="reason-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <h4>Cơ Sở Dữ Liệu Lớn</h4>
+                            <p>Thông tin về hơn 100 ngành nghề, 500+ trường đại học và 10.000+ công ty tuyển dụng được cập nhật liên tục.</p>
+                        </div>
+                        <div class="reason-card">
+                            <div class="reason-icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <h4>Truy Cập Mọi Lúc Mọi Nơi</h4>
+                            <p>Website hoàn toàn miễn phí, tương thích với mọi thiết bị và có thể truy cập mọi lúc, mọi nơi, 24/7.</p>
+                        </div>
+                        <div class="reason-card">
+                            <div class="reason-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <h4>An Toàn & Riêng Tư</h4>
+                            <p>Thông tin cá nhân của bạn được bảo vệ an toàn với công nghệ mã hóa hiện đại nhất.</p>
+                        </div>
+                    </div>
+                </div>
+
+        </section>
+
+        <!-- ========== ABOUT SECTION ========== -->
+        <section id="about" class="content-section">
+            <h2 class="section-title">Về Chúng Tôi</h2>
+            <p class="section-intro">Đội ngũ sáng tạo đứng sau dự án này bao gồm 3 người với passion về giáo dục và hướng dẫn sự nghiệp. Chúng tôi cam kết mang lại giá trị tốt nhất cho mỗi học sinh.</p>
+            
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-avatar">
+                        <img src="member\613652486_725772240338076_3066959270927115958_n.jpg" alt="Avatar Nguyễn Thức Công Thành">
+                    </div>
+                    <h3>Nguyễn Thức Công Thành</h3>
+                    <p class="role">Nhóm trưởng</p>
+                    <div class="member-bio">
+                        <p>Thành tích học tập: giải ba HSG QG môn Tin Học năm 2025-2026, lớp 10 đã đạt giải Nhì HSG cấp tỉnh môn Tin Học, lớp 11 và 12 đã đạt 2 lần liên tiếp giải Nhất HSG cấp tỉnh môn Tin Học, 2 năm học sinh Xuất sắc.</p>
+                        <div class="member-skills">
+                            <span class="skill-tag">Tìm Hiểu Tư Vấn Ngành nghề</span>
+                            <span class="skill-tag">Lập Trình Website</span>
+                            <span class="skill-tag">Phát Triển Ý Tưởng</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-member">
+                    <div class="member-avatar">
+                         <img src="member\z7569588670564_faf89006f56af810d60dc7f661a89d8c.jpg" alt="Avatar Nguyễn Đức Đăng Khoa">
+                    </div>
+                    <h3>Nguyễn Đức Đăng Khoa</h3>
+                    <p class="role">Thành viên</p>
+                    <div class="member-bio">
+                        <p>Thành tích học tập: giải KK HSG cấp tỉnh môn Sinh học năm 2024-2025, Lớp 10 đạt danh hiệu học sinh Xuất sắc và lớp 11 đạt danh hiệu học sinh Giỏi.</p>
+                        <div class="member-skills">
+                            <span class="skill-tag">Lập Trình Website</span>
+                            <span class="skill-tag">Thiết Kế Trang Website</span>
+                            <span class="skill-tag">Phát Triển Nội Dung</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-member">
+                    <div class="member-avatar">
+                         <img src="member\638987338_1131739488988933_8928832592768082881_n.jpg" alt="Avatar Trần Nguyễn Đức Dũng">
+                    </div>
+                    <h3>Trần Nguyễn Đức Dũng</h3>
+                    <p class="role">Thành viên</p>
+                    <div class="member-bio">
+                        <p>Thành tích học tập: 2 lần liên tiếp đạt giải ba HSG cấp tỉnh môn Tin Học năm 2024-2025 và năm 2025-2026, Lớp 10 đạt danh hiệu học sinh Xuất sắc</p>
+                        <div class="member-skills">
+                            <span class="skill-tag">Lập Trình Website</span>
+                            <span class="skill-tag">Phát Triển Trang Website</span>
+                            <span class="skill-tag">Phát Triển Nội Dung</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mission & Vision -->
+            <div class="mission-vision-container">
+                <div class="mission-card">
+                    <h3><i class="fas fa-crosshairs"></i> Sứ Mệnh Của Chúng Tôi</h3>
+                    <p>Cung cấp hướng dẫn sự nghiệp chất lượng cao, miễn phí và dễ tiếp cận cho mỗi học sinh THPT và THCS, giúp họ phát triển toàn diện và tìm được con đường sự nghiệp phù hợp với bản thân.</p>
+                </div>
+                <div class="vision-card">
+                    <h3><i class="fas fa-eye"></i> Tầm Nhìn Của Chúng Tôi</h3>
+                    <p>Trở thành nền tảng tư vấn sự nghiệp hàng đầu tại Việt Nam, nơi mỗi học sinh có thể truy cập thông tin, hỗ trợ và hướng dẫn cần thiết để xây dựng một tương lai thành công.</p>
+                </div>
+                <div class="values-card">
+                    <h3><i class="fas fa-heart"></i> Giá Trị Cốt Lõi</h3>
+                    <p>✓ Tính Trung Thực - Cung cấp thông tin chính xác, không lợi ích riêng<br>✓ Sự Đổi Mới - Liên tục cải tiến và cập nhật công nghệ mới<br>✓ Sự Tôn Trọng - Tôn trọng sự khác biệt và nhu cầu cá nhân của mỗi học sinh</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== GUIDANCE SECTION ========== -->
+        <section id="guidance" class="content-section">
+            <h2 class="section-title">Định Hướng & Giáo Dục Sự Nghiệp</h2>
+            <p class="section-intro">Khám phá những kiến thức cơ bản về định hướng sự nghiệp, phát triển kỹ năng và lên kế hoạch cho tương lai của bạn</p>
+            
+            <div class="guidance-container">
+                <!-- Guidance Part 1 -->
+                <div class="guidance-part">
+                    <h3><i class="fas fa-compass"></i> Phần 1: Định Hướng Sự Nghiệp</h3>
+                    
+                    <div class="guidance-content">
+                        <h4>📚 Khái Niệm Cơ Bản</h4>
+                        <p>Định hướng sự nghiệp là quá trình giúp bạn hiểu rõ bản thân, nhận biết những điểm mạnh, điểm yếu, năng lực, sở thích và giá trị của mình. Từ đó, bạn có thể lựa chọn một con đường sự nghiệp phù hợp, chất lượng cao và đem lại niềm vui trong cuộc sống.</p>
+                        
+                        <h4>📊 Tình Hình Hiện Nay - Thị Trường Lao Động 2026</h4>
+                        <p>Trong thời đại đổi mới số hóa hiện nay, thị trường lao động luôn thay đổi nhanh chóng. Các ngành công nghiệp mới liên tục xuất hiện như:</p>
+                        <ul class="list-style">
+                            <li>✓ Trí Tuệ Nhân Tạo (AI) & Machine Learning</li>
+                            <li>✓ Big Data & Data Science</li>
+                            <li>✓ Năng Lượng Tái Tạo & Green Energy</li>
+                            <li>✓ Digital Marketing & Content Creator</li>
+                            <li>✓ Cybersecurity & Cloud Computing</li>
+                            <li>✓ Blockchain & Cryptocurrency</li>
+                            <li>✓ Biotechnology & Genetic Engineering</li>
+                        </ul>
+                        <p>Do đó, việc hiểu rõ các ngành nghề đang phát triển mạnh là vô cùng quan trọng để có thể chuẩn bị sớm.</p>
+                        
+                        <h4>🎯 Tầm Quan Trọng Của Hiểu Rõ Bản Thân</h4>
+                        <p>Hiểu rõ bản thân giúp bạn:</p>
+                        <div class="importance-grid">
+                            <div class="importance-item">
+                                <i class="fas fa-check-circle"></i>
+                                <p><strong>Đưa ra quyết định đúng đắn</strong> về tương lai sự nghiệp</p>
+                            </div>
+                            <div class="importance-item">
+                                <i class="fas fa-check-circle"></i>
+                                <p><strong>Phát triển kỹ năng</strong> một cách có mục tiêu và hiệu quả</p>
+                            </div>
+                            <div class="importance-item">
+                                <i class="fas fa-check-circle"></i>
+                                <p><strong>Xây dựng sự tự tin</strong> trong con đường học tập và sự nghiệp</p>
+                            </div>
+                            <div class="importance-item">
+                                <i class="fas fa-check-circle"></i>
+                                <p><strong>Tối ưu hóa tiềm năng</strong> và đạt được những mục tiêu cao</p>
+                            </div>
+                        </div>
+
+                        <h4>🤖 Công Cụ Tư Vấn Ngành Nghề - AI Chatbot</h4>
+                        <p>Chúng tôi cung cấp một công cụ tư vấn thông minh sử dụng trí tuệ nhân tạo để phân tích các sở thích, đam mê và năng lực của bạn. Chatbot sẽ gợi ý những ngành nghề phù hợp nhất, cùng với thông tin chi tiết về:</p>
+                        <ul class="list-style">
+                            <li>✓ Mô tả công việc cụ thể</li>
+                            <li>✓ Yêu cầu kỹ năng cần thiết</li>
+                            <li>✓ Mức lương dự kiến</li>
+                            <li>✓ Cơ hội thăng tiến</li>
+                            <li>✓ Các trường đào tạo uy tín</li>
+                        </ul>
+                        <button class="btn-chatbot" id="chatbot-btn">
+                            <i class="fas fa-robot"></i> Mở Chatbot Tư Vấn Ngành Nghề
+                        </button>
+                        <p class="chatbot-desc"><em>Sử dụng AI chatbot miễn phí của chúng tôi để nhận những gợi ý cá nhân hóa dựa trên sở thích, đam mê và năng lực của bạn.</em></p>
+                    </div>
+                </div>
+
+                <!-- Guidance Part 2 -->
+                <div class="guidance-part">
+                    <h3><i class="fas fa-book"></i> Phần 2: Giáo Dục & Phát Triển Kỹ Năng</h3>
+                    
+                    <div class="guidance-content">
+                        <h4>📖 Tầm Quan Trọng Của Học Hỏi & Giáo Dục</h4>
+                        <p>Quá trình học tập không chỉ dừa lại việc ghi nhớ kiến thức mà là sự phát triển toàn diện. Học hỏi giúp bạn:</p>
+                        <ul class="list-style">
+                            <li>✓ Mở rộng tư duy và kiến thức</li>
+                            <li>✓ Phát triển kỹ năng mềm</li>
+                            <li>✓ Chuẩn bị tốt cho tương lai</li>
+                            <li>✓ Tăng cơ hội nhận việc</li>
+                            <li>✓ Xây dựng nền tảng vững chắc</li>
+                        </ul>
+                        
+                        <h4>💪 Chăm Chỉ, Kiên Trì & Kỷ Luật</h4>
+                        <p>Thành công không đến từ may mắn mà từ sự chăm chỉ, kiên trì và kỷ luật trong học tập. Mỗi ngày bạn học được điều gì đó mới là một bước tiến trên con đường sự nghiệp của mình. Hãy tạo thói quen học tập hàng ngày để:</p>
+                        <ul class="list-style">
+                            <li>✓ Tạo tiến bộ ổn định</li>
+                            <li>✓ Xây dựng tự tin</li>
+                            <li>✓ Đạt được mục tiêu học tập</li>
+                            <li>✓ Phát triển bản thân toàn diện</li>
+                        </ul>
+                        
+                        <h4>🎓 Kỹ Năng Cần Thiết Cho Tương Lai</h4>
+                        <p>Bên cạnh kiến thức lý thuyết, bạn cần phát triển các kỹ năng sau (theo yêu cầu của nhà tuyển dụng):</p>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <h5><i class="fas fa-comments"></i> Kỹ Năng Giao Tiếp</h5>
+                                <p>Khả năng trình bày, thuyết trình, lắng nghe và phản hồi hiệu quả</p>
+                            </div>
+                            <div class="skill-item">
+                                <h5><i class="fas fa-users"></i> Làm Việc Nhóm</h5>
+                                <p>Hợp tác, có tinh thần đồng đội và đóng góp tích cực</p>
+                            </div>
+                            <div class="skill-item">
+                                <h5><i class="fas fa-lightbulb"></i> Giải Quyết Vấn Đề</h5>
+                                <p>Tư duy phê phán, phân tích vấn đề và tìm giải pháp sáng tạo</p>
+                            </div>
+                            <div class="skill-item">
+                                <h5><i class="fas fa-paint-brush"></i> Sáng Tạo & Đổi Mới</h5>
+                                <p>Khả năng tư duy sáng tạo, đưa ra ý tưởng mới mẻ</p>
+                            </div>
+                            <div class="skill-item">
+                                <h5><i class="fas fa-language"></i> Tiếng Anh</h5>
+                                <p>Độc lập và tự tin giao tiếp bằng tiếng Anh trong môi trường quốc tế</p>
+                            </div>
+                            <div class="skill-item">
+                                <h5><i class="fas fa-laptop"></i> Kỹ Năng Số</h5>
+                                <p>Sử dụng thành thạo các công cụ số như Excel, PowerPoint, HTML/CSS</p>
+                            </div>
+                        </div>
+
+                        <h4>📚 Kế Hoạch Học Tập Hiệu Quả</h4>
+                        <p>Để đạt được thành công trong học tập và sự nghiệp, bạn cần:</p>
+                        <ol class="numbered-list">
+                            <li>Đặt mục tiêu rõ ràng và cụ thể</li>
+                            <li>Tạo kế hoạch học tập chi tiết</li>
+                            <li>Phân bổ thời gian hợp lý</li>
+                            <li>Duy trì kỷ luật và thói quen</li>
+                            <li>Đánh giá tiến bộ định kỳ</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== NEWS SECTION ========== -->
+        <section id="news" class="content-section">
+            <h2 class="section-title">Tin Tức & Thông Tin Sự Nghiệp</h2>
+            <p class="section-intro">Cập nhật thông tin mới nhất về các ngành nghề, phương thức tuyển sinh, trường đại học và cơ hội việc làm</p>
+            
+            <div class="news-grid">
+                <!-- News Card 1 -->
+                <article class="news-card">
+                    <div class="news-header">
+                        <h3>Ngành Công Nghệ Thông Tin - Cơ Hội Vàng Cho Giới Trẻ 2026</h3>
+                        <span class="news-date">25/02/2026</span>
+                    </div>
+                    <div class="news-content">
+                        <p>Ngành CNTT đang phát triển nhanh chóng với nhu cầu tuyển dụng cao nhất trong thị trường. Lương bắt đầu: 15-25 triệu/tháng cho người mới.</p>
+                        <h5>Yêu Cầu:</h5>
+                        <ul class="news-list">
+                            <li>✓ Kiến thức lập trình (Java, Python, JavaScript)</li>
+                            <li>✓ Tư duy logic vững chắc</li>
+                            <li>✓ Tiếng Anh tốt (TOEIC 600+)</li>
+                            <li>✓ Khả năng làm việc nhóm</li>
+                        </ul>
+                        <h5>Cơ Hội Thăng Tiến:</h5>
+                        <p>Sau 3 năm: Senior Developer (30-40 triệu/tháng) → Manager (40-60 triệu/tháng) → CTO</p>
+                    </div>
+                    <div class="news-info">
+                        <span><i class="fas fa-graduation-cap"></i> Trường: Bách Khoa HN, FPT University, RMIT</span>
+                    </div>
+                    <div class="news-footer">
+                        <span class="news-category it-category">Công Nghệ</span>
+                        <span class="news-views"><i class="fas fa-eye"></i> 5,234 lượt xem</span>
+                    </div>
+                </article>
+
+                <!-- News Card 2 -->
+                <article class="news-card">
+                    <div class="news-header">
+                        <h3>Ngành Y Dược - Tiêu Chuẩn Tuyển Sinh 2026</h3>
+                        <span class="news-date">22/02/2026</span>
+                    </div>
+                    <div class="news-content">
+                        <p>Xét tuyển ngành Y Dược dựa trên điểm Tốt nghiệp THPT. Điểm chuẩn thường từ 28-32 điểm. Ngành Y Dược được ưu tiên tuyển sinh vì nhu cầu cao.</p>
+                        <h5>Yêu Cầu:</h5>
+                        <ul class="news-list">
+                            <li>✓ Đam mê, tâm huyết với ngành</li>
+                            <li>✓ Khả năng học tập cao</li>
+                            <li>✓ Sức khỏe tốt</li>
+                            <li>✓ Trách nhiệm với bệnh nhân</li>
+                        </ul>
+                        <h5>Mức Lương:</h5>
+                        <p>Bác sĩ: 25-40 triệu/tháng | Dược sĩ: 15-25 triệu/tháng</p>
+                    </div>
+                    <div class="news-info">
+                        <span><i class="fas fa-stethoscope"></i> Trường: ĐH Y Hà Nội, ĐH Y TPHCM, ĐH Y Huế</span>
+                    </div>
+                    <div class="news-footer">
+                        <span class="news-category medical-category">Y Dược</span>
+                        <span class="news-views"><i class="fas fa-eye"></i> 3,456 lượt xem</span>
+                    </div>
+                </article>
+
+                <!-- News Card 3 -->
+                <article class="news-card">
+                    <div class="news-header">
+                        <h3>Ngành Kinh Tế - Kỹ Năng Cần Thiết & Cơ Hội Việc Làm</h3>
+                        <span class="news-date">20/02/2026</span>
+                    </div>
+                    <div class="news-content">
+                        <p>Kinh Tế là ngành được ưu tiên tuyển dụng. Nhu cầu nhân lực lớn trong lĩnh vực tài chính, ngân hàng, kế toán.</p>
+                        <h5>Kỹ Năng Cần Thiết:</h5>
+                        <ul class="news-list">
+                            <li>✓ Tiếng Anh tốt (TOEIC 700+)</li>
+                            <li>✓ MS Excel, SAP, accounting software</li>
+                            <li>✓ Kỹ năng phân tích dữ liệu</li>
+                            <li>✓ Tư duy phê phán</li>
+                        </ul>
+                        <h5>Mức Lương Khởi Điểm:</h5>
+                        <p>10-15 triệu/tháng → 5 năm: 20-30 triệu/tháng</p>
+                    </div>
+                    <div class="news-info">
+                        <span><i class="fas fa-chart-pie"></i> Trường: ĐUQG, Kinh Tế TP.HCM, Ngoại Thương</span>
+                    </div>
+                    <div class="news-footer">
+                        <span class="news-category business-category">Kinh Tế</span>
+                        <span class="news-views"><i class="fas fa-eye"></i> 4,123 lượt xem</span>
+                    </div>
+                </article>
+
+                <!-- News Card 4 -->
+                <article class="news-card">
+                    <div class="news-header">
+                        <h3>Hướng Dẫn Chi Tiết Nộp Hồ Sơ Tuyển Sinh Đại Học 2026</h3>
+                        <span class="news-date">18/02/2026</span>
+                    </div>
+                    <div class="news-content">
+                        <p>Năm 2026, có 3 phương thức xét tuyển chính được Bộ GD&ĐT công bố. Học sinh có thể lựa chọn một hoặc kết hợp nhiều phương thức.</p>
+                        <h5>3 Phương Thức Xét Tuyển:</h5>
+                        <ul class="news-list">
+                            <li>✓ Tốt Nghiệp THPT (sử dụng điểm 3 môn)</li>
+                            <li>✓ Đánh Giá Năng Lực (ĐGNL)</li>
+                            <li>✓ Đánh Giá Tư Duy (ĐGTD)</li>
+                        </ul>
+                        <h5>Lịch Nộp Hồ Sơ:</h5>
+                        <p>Khóa 1: 3/3 - 15/3 | Khóa 2: 1/4 - 15/4 | Khóa 3: 1/8 - 31/8</p>
+                    </div>
+                    <div class="news-info">
+                        <span><i class="fas fa-clipboard-list"></i> Nguồn: Bộ GD&ĐT</span>
+                    </div>
+                    <div class="news-footer">
+                        <span class="news-category education-category">Tuyển Sinh</span>
+                        <span class="news-views"><i class="fas fa-eye"></i> 8,567 lượt xem</span>
+                    </div>
+                </article>
+
+                <!-- News Card 5 -->
+                <article class="news-card">
+                    <div class="news-header">
+                        <h3>Ngành Xây Dựng & Kiến Trúc - Triển Vọng Sáng Trong Tương Lai</h3>
+                        <span class="news-date">16/02/2026</span>
+                    </div>
+                    <div class="news-content">
+                        <p>Xây dựng là ngành có nhu cầu tuyển dụng cao, với nhiều dự án lớn được khởi động trên toàn quốc. Lương bắt đầu 12-20 triệu/tháng.</p>
+                        <h5>Yêu Cầu:</h5>
+                        <ul class="news-list">
+                            <li>✓ Kỹ năng kỹ thuật vững</li>
+                            <li>✓ Vẽ kỹ thuật, phần mềm AutoCAD</li>
+                            <li>✓ Quản lý dự án</li>
+                            <li>✓ Tiếng Anh chuyên ngành</li>
+                        </ul>
+                        <h5>Mức Lương Dự Kiến:</h5>
+                        <p>Thực tập: 5-8 triệu | Junior: 12-18 triệu | Senior: 30-50 triệu</p>
+                    </div>
+                    <div class="news-info">
+                        <span><i class="fas fa-building"></i> Trường: HUFLIT, Xây Dựng, ĐH Bách Khoa</span>
+                    </div>
+                    <div class="news-footer">
+                        <span class="news-category construction-category">Xây Dựng</span>
+                        <span class="news-views"><i class="fas fa-eye"></i> 2,891 lượt xem</span>
+                    </div>
+                </article>
+
+                <!-- News Card 6 -->
+                <article class="news-card">
+                    <div class="news-header">
+                        <h3>Thay Đổi Điểm Thi Đánh Giá Năng Lực (ĐGNL) 2026</h3>
+                        <span class="news-date">14/02/2026</span>
+                    </div>
+                    <div class="news-content">
+                        <p>Năm 2026, điểm thi ĐGNL được chuẩn hóa mới. Điểm tối đa là 900 điểm, chia thành 3 phần kiểm tra. Nhiều đại học sử dụng phương thức này.</p>
+                        <h5>Cấu Trúc Đề Thi ĐGNL:</h5>
+                        <ul class="news-list">
+                            <li>✓ Tư Duy Định Lượng: 150 phút (300 điểm)</li>
+                            <li>✓ Tư Duy Định Tính: 150 phút (300 điểm)</li>
+                            <li>✓ Đọc Hiểu Tiếng Anh: 90 phút (300 điểm)</li>
+                        </ul>
+                        <h5>Lời Khuyên:</h5>
+                        <p>Luyện tập thường xuyên trên các nền tảng uy tín như ĐGNL.VN, bắt đầu từ sớm để thành thạo các dạng bài.</p>
+                    </div>
+                    <div class="news-info">
+                        <span><i class="fas fa-pencil-alt"></i> Đại học Quốc gia TP.HCM</span>
+                    </div>
+                    <div class="news-footer">
+                        <span class="news-category exam-category">Kỳ Thi</span>
+                        <span class="news-views"><i class="fas fa-eye"></i> 6,789 lượt xem</span>
+                    </div>
+                </article>
+
+                <!-- News Card 7 -->
+                <article class="news-card">
+                    <div class="news-header">
+                        <h3>Ngành AI & Data Science - Ngành Nghề Tương Lai</h3>
+                        <span class="news-date">12/02/2026</span>
+                    </div>
+                    <div class="news-content">
+                        <p>AI và Data Science là các ngành tương lai với nhu cầu tuyển dụng tăng 50% mỗi năm. Lương khởi điểm cao nhất hiện nay: 20-30 triệu/tháng.</p>
+                        <h5>Yêu Cầu:</h5>
+                        <ul class="news-list">
+                            <li>✓ Python, R, SQL</li>
+                            <li>✓ Machine Learning algorithms</li>
+                            <li>✓ Toán cao cấp, thống kê</li>
+                            <li>✓ Tiếng Anh nước ngoài</li>
+                        </ul>
+                    </div>
+                    <div class="news-info">
+                        <span><i class="fas fa-brain"></i> Trường: Bách Khoa, FPT, TNUS</span>
+                    </div>
+                    <div class="news-footer">
+                        <span class="news-category ai-category">AI & Data</span>
+                        <span class="news-views"><i class="fas fa-eye"></i> 7,123 lượt xem</span>
+                    </div>
+                </article>
+
+                <!-- News Card 8 -->
+                <article class="news-card">
+                    <div class="news-header">
+                        <h3>Ngành Thiết Kế Đồ Họa & UI/UX - Ngành Sáng Tạo Hái Lợi</h3>
+                        <span class="news-date">10/02/2026</span>
+                    </div>
+                    <div class="news-content">
+                        <p>Với sự phát triển của công nghệ, thiết kế đồ họa và UI/UX trở thành ngành được yêu cầu cao. Lương: 12-22 triệu/tháng.</p>
+                        <h5>Kỹ Năng Cần Thiết:</h5>
+                        <ul class="news-list">
+                            <li>✓ Figma, Adobe Creative Suite</li>
+                            <li>✓ UX/UI design principles</li>
+                            <li>✓ Tư duy sáng tạo</li>
+                            <li>✓ Giao tiếp thiết kế</li>
+                        </ul>
+                    </div>
+                    <div class="news-info">
+                        <span><i class="fas fa-palette"></i> Trường: Mỹ Thuật, ĐH Công Nghệ, FPT</span>
+                    </div>
+                    <div class="news-footer">
+                        <span class="news-category design-category">Thiết Kế</span>
+                        <span class="news-views"><i class="fas fa-eye"></i> 4,456 lượt xem</span>
+                    </div>
+                </article>
+
+                <!-- News Card 9 -->
+                <article class="news-card">
+                    <div class="news-header">
+                        <h3>Ngành Quản Lý Nhân Sự (HR) - Cơ Hội Và Thách Thức</h3>
+                        <span class="news-date">08/02/2026</span>
+                    </div>
+                    <div class="news-content">
+                        <p>Ngành HR là cầu nối giữa công ty và nhân viên. Nhu cầu tuyển dụng: 15,000+ vị trí/năm. Lương: 12-24 triệu/tháng.</p>
+                        <h5>Yêu Cầu:</h5>
+                        <ul class="news-list">
+                            <li>✓ Kỹ năng giao tiếp tuyệt vời</li>
+                            <li>✓ Quản lý nhân sự</li>
+                            <li>✓ Pháp luật lao động</li>
+                            <li>✓ Tâm lý học tổ chức</li>
+                        </ul>
+                    </div>
+                    <div class="news-info">
+                        <span><i class="fas fa-handshake"></i> Trường: ĐUQG, Kinh Tế, Ngoại Thương</span>
+                    </div>
+                    <div class="news-footer">
+                        <span class="news-category business-category">Quản Lý</span>
+                        <span class="news-views"><i class="fas fa-eye"></i> 3,234 lượt xem</span>
+                    </div>
+                </article>
+
+                <!-- News Card 10 -->
+                <article class="news-card">
+                    <div class="news-header">
+                        <h3>Ngành Kỹ Sư Điện - Khôn Không Phai Nhu Cầu Tuyển Dụng</h3>
+                        <span class="news-date">06/02/2026</span>
+                    </div>
+                    <div class="news-content">
+                        <p>Kỹ sư Điện vẫn được tuyển dụng rộng rãi. Lương: 15-28 triệu/tháng. Nhiều cơ hội ở các công ty tổ chức năng lượng.</p>
+                        <h5>Yêu Cầu:</h5>
+                        <ul class="news-list">
+                            <li>✓ Kiến thức điện đặc thù</li>
+                            <li>✓ Kỹ năng thiết kế</li>
+                            <li>✓ Phần mềm CAD, MATLAB</li>
+                            <li>✓ Tiếng Anh chuyên ngành</li>
+                        </ul>
+                    </div>
+                    <div class="news-info">
+                        <span><i class="fas fa-plug"></i> Trường: Bách Khoa, Công Nghệ, Xây Dựng</span>
+                    </div>
+                    <div class="news-footer">
+                        <span class="news-category technical-category">Kỹ Thuật</span>
+                        <span class="news-views"><i class="fas fa-eye"></i> 2,567 lượt xem</span>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Additional Resources -->
+            <div class="additional-resources">
+                <h2>Tài Nguyên Bổ Sung</h2>
+                <div class="resources-container">
+                    <div class="resource-card">
+                        <h4><i class="fas fa-file-download"></i> Hướng Dẫn Từng Bước</h4>
+                        <p>Tải xuống hướng dẫn chi tiết về cách chuẩn bị cho kỳ thi tuyển sinh đại học.</p>
+                        <button class="btn-secondary">Tải Về</button>
+                    </div>
+                    <div class="resource-card">
+                        <h4><i class="fas fa-video"></i> Video Hướng Dẫn</h4>
+                        <p>Xem các video từ các chuyên gia về hướng dẫn sự nghiệp và phát triển kỹ năng.</p>
+                        <button class="btn-secondary">Xem Ngay</button>
+                    </div>
+                    <div class="resource-card">
+                        <h4><i class="fas fa-calendar"></i> Sự Kiện Tư Vấn</h4>
+                        <p>Tham gia các sự kiện tư vấn trực tuyến với các chuyên gia hàng tuần.</p>
+                        <button class="btn-secondary">Đăng Ký</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="chatbot-modal" class="chatbot-modal">
+    <div class="chatbot-container">
+        <div class="chatbot-header">
+            <h2><i class="fas fa-robot"></i> Tư Vấn Ngành Nghề - AI Assistant</h2>
+            <button class="close-btn" id="close-chatbot" title="Đóng">×</button>
+        </div>
+
+        <div class="chatbot-content">
+            <div class="chat-messages" id="chat-messages">
+                <div class="chat-message bot-message">
+                    <p>👋 Xin chào! Tôi là trợ lý AI. Bạn có thể chọn các chủ đề dưới đây hoặc nhập câu hỏi trực tiếp để tôi tư vấn nghề nghiệp nhé!</p>
+                </div>
+            </div>
+
+            <div class="chatbot-form">
+                <div class="form-group">
+                    <label id="ai-status">Gợi ý chủ đề:</label>
+                    <div class="options">
+                        <button class="option-btn" data-option="Công nghệ thông tin và lập trình">
+                            <i class="fas fa-laptop-code"></i> Công Nghệ
+                        </button>
+                        <button class="option-btn" data-option="Tâm lý học và công tác xã hội">
+                            <i class="fas fa-people-arrows"></i> Con Người
+                        </button>
+                        <button class="option-btn" data-option="Quản trị kinh doanh và khởi nghiệp">
+                            <i class="fas fa-briefcase"></i> Kinh Doanh
+                        </button>
+                        <button class="option-btn" data-option="Thiết kế đồ họa và nghệ thuật">
+                            <i class="fas fa-palette"></i> Sáng Tạo
+                        </button>
+                    </div>
+                </div>
+                <div style="display: flex; margin-top: 10px; gap: 5px;">
+                    <input type="text" id="user-free-input" placeholder="Nhập câu hỏi khác..." style="flex:1; border-radius: 20px; border: 1px solid #ddd; padding: 8px 15px; outline: none;">
+                    <button id="send-free-btn" style="background: #0084ff; color: white; border: none; border-radius: 50%; width: 35px; height: 35px; cursor: pointer;">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Về Hướng Đi Sự Nghiệp</h4>
+                <p>Nền tảng tư vấn sự nghiệp toàn diện, giúp học sinh THPT và THCS tìm được con đường phù hợp với bản thân.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Liên Kết Nhanh</h4>
+                <ul class="footer-links">
+                    <li><a href="#home">Trang Chủ</a></li>
+                    <li><a href="#about">Về Chúng Tôi</a></li>
+                    <li><a href="#guidance">Định Hướng</a></li>
+                    <li><a href="#news">Tin Tức</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Theo Dõi Chúng Tôi</h4>
+                <div class="footer-social">
+                    <a href="https://www.facebook.com/profile.php?id=61581275286269&sk=directory_personal_details" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/path_way_ai/?fbclid=IwY2xjawQONxBleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAEwAAEe-U_txgMWSfTI2tpiV7qDWqHPnnEzrl0Yxp2mbYRPrhuTUvqb1YCMIktfYNo_aem_nlOvq2WL_Fnuk83_wGbGMg" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=61581275286269&sk=directory_personal_details" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Liên Hệ</h4>
+                <p>Email: dangkhoa0150@gmail.com<br>Điện thoại: 0838964223<br>Địa chỉ: xã Khe Sanh, tỉnh Quảng Trị.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Hướng Đi Sự Nghiệp. Bản quyền được bảo vệ. | <a href="#">Chính Sách Bảo Mật</a> | <a href="#">Điều Khoản Sử Dụng</a></p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+    
+</body>
+</html>
